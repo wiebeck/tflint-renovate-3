@@ -7,5 +7,9 @@
 ## Observation
 
 - ✅ TFLint is happy
+- ✅ Renovate updates providers from root module in lock file only
+- ❌ Renovate **completely ignores** providers in child modules
 
 ## Workarounds
+
+- manually keeping providers in child modules up to date
